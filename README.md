@@ -2,26 +2,7 @@
 
 
 ### Tạo ví
-1. Clone source
 
-```
-git clone https://github.com/octra-labs/wallet-gen.git
-cd wallet-gen
-```
-
-2. mở cổng
-```
-ufw allow 22/tcp
-ufw allow 8888/tcp
-ufw enable
-```
-3. Permision
-```
-chmod +x start.sh
-./start.sh
-```
-
-Note: có thể chạy auto chỉ bằng 1 lệnh như hướng dẫn của dự án 
 ```
 curl -fsSL https://octra.org/wallet-generator.sh | bash
 ```
