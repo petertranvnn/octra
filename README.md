@@ -21,6 +21,11 @@ chmod +x start.sh
 ./start.sh
 ```
 
+Note: có thể chạy auto chỉ bằng 1 lệnh như hướng dẫn của dự án 
+```
+curl -fsSL https://octra.org/wallet-generator.sh | bash
+```
+
 --------------
 ### install Octra client
 1.
